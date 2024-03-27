@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(https://clipart-library.com/image_gallery2/Space-PNG-Picture.png)
+    no-repeat center center/cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15%;
+}
+.circle1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: url(https://cdn.pixabay.com/photo/2020/02/04/17/08/map-4818868_1280.jpg) no-repeat center center/cover;
+    animation-name: circle1;
+    position: relative;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 50px 20px #fff;
+    animation-direction: reverse;
+    background-repeat: repeat-x;
+}
+@keyframes circle1 {
+    0% {
+    background-position: 0 0;
+    }
+    100% {
+    background-position: 750px 0;
+    }
+}
+.circle2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Whole_world_-_land_and_oceans_12000.jpg/500px-Whole_world_-_land_and_oceans_12000.jpg) no-repeat center center/cover;
+    animation-name: circle2;
+    position: relative;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 50px 20px #fff;
+    background-repeat: repeat-x;
+}
+@keyframes circle2 {
+    0%{
+    background-position: 0 0;
+    }
+    100% {
+    background-position: -750px 0;
+    }
+}
+.circle3 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: url(https://mirax.space/wp-content/uploads/2022/01/8k_sun-scaled.jpg) no-repeat center center/cover;
+    animation-name: circle3;
+    position: relative;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 50px 20px #fff;
+    background-repeat: repeat-x;
+}
+@keyframes circle3 {
+    0% {
+    background-position: 0 0;
+    }
+    100% {
+    background-position: -750px 0;
+    }
+}
